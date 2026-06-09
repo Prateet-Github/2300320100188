@@ -1,11 +1,11 @@
-import expresss from "express";
+import express from "express";
 
-const app = expresss();
+import schedulerRoutes from "./routes/scheduler.route.js";
 
-app.use(expresss.json());
+const app = express();
 
-app.get("/", (_req, res) => {
-  res.send("Health OK!");
-});
+app.use(express.json());
+
+app.use("/api", schedulerRoutes);
 
 export default app;
