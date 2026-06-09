@@ -23,6 +23,7 @@ export async function Log(
   message: string
 ): Promise<void> {
   try {
+    // console.log("LOGGER TOKEN:", process.env.ACCESS_TOKEN?.slice(0, 30));
     await axios.post(
       LOG_API_URL,
       {
