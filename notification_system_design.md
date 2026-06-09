@@ -2,6 +2,10 @@
 
 Backend service built with Node.js and Express that fetches notifications from the Evaluation API, prioritizes them, simulates delivery, and logs application events.
 
+![alt text](notification_app_be/public/B16E4069-8FCC-4BD8-A2EB-F326E19D96A4.png)
+
+![alt text](notification_app_be/public/1677CA81-5A46-414F-B1B2-CEB4C3AE7160.png)
+
 ## Tech Stack
 
 - Node.js
